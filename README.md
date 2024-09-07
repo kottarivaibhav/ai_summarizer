@@ -54,11 +54,11 @@ To set up the project locally, follow these steps:
    ## Usage
    To use the AI Summarizer, follow these steps:
 
--Open your browser and navigate to http://localhost:3000.
--Paste the URL of the article you want to summarize into the input field.
--Click the submit button to receive the summary.
--Use the copy button to copy the summary to your clipboard.
--View your summary history saved in local storage.
+- Open your browser and navigate to http://localhost:3000.
+- Paste the URL of the article you want to summarize into the input field.
+- Click the submit button to receive the summary.
+- Use the copy button to copy the summary to your clipboard.
+- View your summary history saved in local storage.
 
 ## Example
 Paste URL: https://example.com/article
@@ -67,11 +67,11 @@ Contributing
 We welcome contributions! Please follow these steps:
 
 ## Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes.
+- Commit your changes (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature-branch).
+- Open a pull request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -79,7 +79,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact Information
 If you have any questions or suggestions, feel free to reach out.
 
-Name: Vaibhav Kottari
-Email: kottarivaibhav@gmail.com
-GitHub: kottarivaibhav
+- Name: Vaibhav Kottari
+- Email: kottarivaibhav@gmail.com
+- GitHub: kottarivaibhav
 
