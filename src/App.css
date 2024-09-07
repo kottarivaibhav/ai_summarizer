@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* 
-  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
+  Note: The styles for this gradient grid background are heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
 
 .main {
@@ -45,15 +45,15 @@
   max-width: 640px;
   background-image: radial-gradient(
       at 27% 37%,
-      hsla(215, 98%, 61%, 1) 0px,
+      hsla(145, 68%, 52%, 1) 0px,  /* Green */
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    radial-gradient(at 97% 21%, hsla(125, 98%, 62%, 1) 0px, transparent 50%),  /* Light Green */
+    radial-gradient(at 52% 99%, hsla(155, 78%, 72%, 1) 0px, transparent 50%),  /* Soft Green */
+    radial-gradient(at 10% 29%, hsla(135, 96%, 67%, 1) 0px, transparent 50%),  /* Emerald Green */
+    radial-gradient(at 97% 96%, hsla(120, 60%, 74%, 1) 0px, transparent 50%),  /* Lime */
+    radial-gradient(at 33% 50%, hsla(140, 67%, 73%, 1) 0px, transparent 50%),  /* Mint */
+    radial-gradient(at 79% 53%, hsla(160, 68%, 79%, 1) 0px, transparent 50%);  /* Teal */
   position: absolute;
   content: "";
   width: 100%;
@@ -76,27 +76,27 @@
 }
 
 .black_btn {
-  @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+  @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black; /* Keeping the GitHub button black */
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-green-800 sm:text-6xl text-center;
 }
 
 .orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-green-500 via-green-600 to-lime-500 bg-clip-text text-transparent;
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+  @apply mt-5 text-lg text-green-600 sm:text-xl text-center max-w-2xl;
 }
 
 .url_input {
-  @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0;
+  @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi font-medium focus:border-green-600 focus:outline-none focus:ring-0;
 }
 
 .submit_btn {
-  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-200 font-sans text-sm font-medium text-gray-400;
+  @apply hover:border-green-700 hover:text-green-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-200 font-sans text-sm font-medium text-gray-400;
 }
 
 .link_card {
@@ -108,7 +108,7 @@
 }
 
 .blue_gradient {
-  @apply font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+  @apply font-black bg-gradient-to-r from-green-600 to-lime-600 bg-clip-text text-transparent;
 }
 
 .summary_box {
