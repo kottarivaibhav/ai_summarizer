@@ -4,7 +4,7 @@ AI Summarizer is a Generative AI application that uses the RapidAPI to summarize
 
 ## Demo Video
 
-[Watch the demo video](https://youtu.be/f2EPDMMMs3g)
+(https://youtu.be/f2EPDMMMs3g)
 
 ## Table of Contents
 
