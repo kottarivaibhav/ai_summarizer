@@ -2,6 +2,10 @@
 
 AI Summarizer is a Generative AI application that uses the RapidAPI to summarize articles. This tool is built with React, Vite, Redux Toolkit, and Tailwind CSS. It features RTK Query for API requests, saves history using local storage, and implements copy-to-clipboard functionality.
 
+## Demo Video
+
+[Watch the demo video](public/summarize.mp4)
+
 ## Table of Contents
 
 - [Description](#description)
